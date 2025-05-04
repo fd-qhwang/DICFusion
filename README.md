@@ -56,7 +56,7 @@ To test a pre-trained model:
 2. **Check the pre-trained model**:
    - Make sure the pre-trained model is located at:
      ```
-     experiments/Train_0503_DICFusegNet_dim64_B8_256_AdamW_tanh_None_Sobely1_MAF_CLIP0.1_1e-4/models/net_g_10000.pth
+     checkpoints/model.pth
      ```
    - If the model is in a different location, update the path in the configuration file:
      ```yaml
@@ -67,6 +67,8 @@ To test a pre-trained model:
 3. **Run the test script**:
    ```bash
    python test.py -opt options/test/TCSVT/test_dicfuseg3.yml
+   ## or ## 
+   sh bash/test.sh
    ```
 
 4. **View results**:
