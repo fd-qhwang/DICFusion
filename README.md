@@ -85,11 +85,11 @@ The complete model implementation and detailed training procedures will be relea
 If you use our code or model, please cite our paper:
 
 ```bibtex
-@article{author2023dicfusion,
+@article{author2025dicfusion,
     title={DICFusion: Deep Image Complementary Fusion},
     author={Author, A. and Author, B.},
     journal={Under Review},
-    year={2023}
+    year={2025}
 }
 ```
 
